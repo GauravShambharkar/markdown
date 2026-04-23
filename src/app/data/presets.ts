@@ -1,0 +1,53 @@
+export const AUDIENCE_PRESETS = [
+  "Backend engineers",
+  "Frontend developers",
+  "DevOps / SRE",
+  "Beginners, no prior experience",
+  "Product managers",
+  "Technical leads",
+  "Open-source contributors",
+  "Students learning to code",
+];
+
+export const SECTION_PRESETS: Record<string, string[]> = {
+  readme: [
+    "Overview",
+    "Features",
+    "Installation",
+    "Usage",
+    "Configuration",
+    "Examples",
+    "Contributing",
+    "License",
+  ],
+  "api-docs": [
+    "Authentication",
+    "Endpoints",
+    "Request",
+    "Response",
+    "Errors",
+    "Rate limits",
+    "Examples",
+    "Changelog",
+  ],
+  tutorial: [
+    "Prerequisites",
+    "Setup",
+    "Step-by-step",
+    "Common pitfalls",
+    "Troubleshooting",
+    "Next steps",
+  ],
+  blog: ["Hook", "Context", "Main point", "Example", "Takeaways", "Call to action"],
+  spec: [
+    "Problem",
+    "Goals",
+    "Non-goals",
+    "Design",
+    "Alternatives",
+    "Risks",
+    "Rollout",
+  ],
+  changelog: ["Added", "Changed", "Deprecated", "Removed", "Fixed", "Security"],
+  notes: ["Attendees", "Agenda", "Discussion", "Decisions", "Action items"],
+};
